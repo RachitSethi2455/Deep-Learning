@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains Deep Learning laboratory experiments implemented using **Python** and **Jupyter Notebook**. The experiments cover fundamental and advanced deep learning concepts, including image classification, convolutional neural networks, transfer learning, region-based CNNs, image segmentation, autoencoders, and movie genre classification.
+This repository contains Deep Learning laboratory experiments implemented using **Python** and **Jupyter Notebook**. The experiments cover fundamental and advanced deep learning concepts, including neural networks, convolutional neural networks, transfer learning, region-based CNNs, image segmentation, autoencoders, and movie genre classification.
 
 ## Technologies Used
 
@@ -20,7 +20,7 @@ This repository contains Deep Learning laboratory experiments implemented using 
 2. Deep Learning Lab Exercises
 3. Cat vs Rabbit Classification
 4. Flower Classification
-5. Neural Network
+5. Neural Network Lab
 6. Multi Layer Perceptron (MLP)
 7. Convolutional Neural Network (CNN)
 8. Transfer Learning
@@ -29,7 +29,7 @@ This repository contains Deep Learning laboratory experiments implemented using 
 11. Image Segmentation
 12. Advanced Deep Learning
 13. Autoencoder
-14. Movie Genre Prediction Project
+14. Movie Recommendation System
 
 ## Datasets
 
@@ -37,9 +37,12 @@ This repository contains Deep Learning laboratory experiments implemented using 
 | ------------- | ------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Experiment 3  | Cat vs Rabbit                                     | https://www.kaggle.com/datasets/muniryadi/cat-vs-rabbit                                              |
 | Experiment 4  | Flowers Recognition (5 Classes)                   | https://www.kaggle.com/datasets/alxmamaev/flowers-recognition                                        |
+| Experiment 9  | Digit Recognizer (MNIST)                          | https://www.kaggle.com/c/digit-recognizer/data                                                       |
 | Experiment 10 | Open Images – Bus & Trucks                        | https://www.kaggle.com/datasets/sixhky/open-images-bus-trucks                                        |
 | Experiment 12 | Flower16 (16 Classes)                             | https://www.kaggle.com/datasets/l3llff/flower16                                                      |
 | Experiment 14 | IMDb Multimodal Vision & NLP Genre Classification | https://www.kaggle.com/datasets/zulkarnainsaurav/imdb-multimodal-vision-and-nlp-genre-classification |
+
+> **Note:** Experiments that require external datasets use the Kaggle datasets listed above. Download the corresponding dataset before running the respective notebook.
 
 ## How to Run
 
@@ -50,7 +53,7 @@ This repository contains Deep Learning laboratory experiments implemented using 
    cd <repository-folder>
    ```
 
-2. Install the required libraries:
+2. Install the required dependencies:
 
    ```bash
    pip install tensorflow keras numpy pandas matplotlib scikit-learn
@@ -62,7 +65,7 @@ This repository contains Deep Learning laboratory experiments implemented using 
    jupyter notebook
    ```
 
-4. Open the desired experiment notebook and run all cells.
+4. Open any experiment notebook and run all cells sequentially.
 
 ## Author
 
