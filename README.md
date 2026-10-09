@@ -2,13 +2,14 @@
 
 ## Description
 
-This repository contains Deep Learning laboratory experiments implemented using **Python** and **Jupyter Notebook**. The experiments cover fundamental and advanced deep learning concepts, including neural networks, convolutional neural networks, transfer learning, region-based CNNs, image segmentation, autoencoders, and movie genre classification.
+This repository contains Deep Learning laboratory experiments implemented using **Python** and **Jupyter Notebook**. The experiments cover fundamental and advanced deep learning concepts, including neural networks, convolutional neural networks, transfer learning, region-based CNNs, image segmentation, autoencoders, and movie genre classification from posters.
 
 ## Technologies Used
 
 * Python
-* TensorFlow
-* Keras
+* TensorFlow / Keras
+* PyTorch / torchvision
+* OpenCV, scikit-image
 * NumPy
 * Pandas
 * Matplotlib
@@ -29,7 +30,7 @@ This repository contains Deep Learning laboratory experiments implemented using 
 11. Image Segmentation
 12. Advanced Deep Learning
 13. Autoencoder
-14. Movie Recommendation System
+14. Movie Genre Classification from Posters. An improved, standalone version with repeated-split evaluation, Grad-CAM and a demo is at [movie-genre-poster-classification](https://github.com/RachitSethi2455/movie-genre-poster-classification).
 
 ## Datasets
 
@@ -49,14 +50,14 @@ This repository contains Deep Learning laboratory experiments implemented using 
 1. Clone the repository:
 
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   git clone https://github.com/RachitSethi2455/Deep-Learning.git
+   cd Deep-Learning
    ```
 
 2. Install the required dependencies:
 
    ```bash
-   pip install tensorflow keras numpy pandas matplotlib scikit-learn
+   pip install tensorflow torch torchvision numpy pandas matplotlib seaborn scikit-learn scikit-image opencv-python
    ```
 
 3. Launch Jupyter Notebook:
